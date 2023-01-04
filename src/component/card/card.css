@@ -1,0 +1,38 @@
+.card{
+    /* margin: 20px; */
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 307px;
+    margin: 24px auto;
+    height: 404px;
+}
+.card img{
+    object-fit: contain;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    opacity: 0;
+}
+.card .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.card .info h6{
+color: #fff;
+
+}
+.card:hover .overlay{
+    opacity: 1;
+}

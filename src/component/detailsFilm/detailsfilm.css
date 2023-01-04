@@ -1,0 +1,27 @@
+.in{
+    margin: 50px 0px ;
+}
+.img-film{
+    text-align: center;
+    padding: 30px;
+}
+.img-film img{
+    width: 100%;
+}
+.info-film{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+.info-film h6 {
+    font-size: 28px;
+}
+.btns{
+    text-align: center;
+    padding: 48px;
+}
+.btns button:not(:last-child){
+    margin-left: 20px;
+}
